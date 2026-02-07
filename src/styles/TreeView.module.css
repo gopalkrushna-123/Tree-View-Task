@@ -1,0 +1,24 @@
+.wrapper {
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0 0 var(--more-padding);
+  color: var(--color-text-strong);
+}
+
+.treeContainer {
+  background: var(--color-white);
+  border-radius: var(--radius-lg);
+  padding: var(--more-padding);
+  box-shadow: var(--shadow-md);
+}
+
+.list {
+  list-style: none;
+  margin: var(--no-margin);
+  padding: var(--no-padding);
+}

@@ -1,0 +1,19 @@
+.avatar {
+  width: 28px;
+  height: 28px;
+  min-width: 28px;
+  min-height: 28px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--color-white);
+  background: var(--color-avatar-default);
+  flex-shrink: 0;
+}
+
+.avatarRoot {
+  background: var(--color-avatar-root);
+}
